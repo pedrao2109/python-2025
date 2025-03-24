@@ -16,6 +16,31 @@ pagina.write("""
         <meta charset="UTF-8">
         <meta name="viewport"
         content="width=device-width, intial-scale=1.0">
+        <style rel="stylesheet">
+            h1{
+                text-aling:center:
+            }
+            table{
+                /*witdh: 100%;*/
+            }
+            table, th, td {
+                border-collapse: collapse;
+            }
+            th{
+                text-aling:center;
+            }
+            th, td{
+                padding: 10px;
+            }
+            .reprovado{
+            background:red;
+            color:#fff;
+            }
+            .aprovado{
+             background:green;
+            color:#fff;
+            }
+            </style>    
     <table border="1">
 """)
 for aluno, desempenho in (conteudo.items()):
